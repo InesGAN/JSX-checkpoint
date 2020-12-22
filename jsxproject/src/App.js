@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import imageInSrc from "./imageInSrc.PNG"
+
 import myVideo from "./myVideo.mp4"
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           <img src={imageInSrc} height={240}/>
           <br />
            </div>
-          {/* <img src={} height={300} /> */}
+           <img src="../mesimages/imageInPublic.PNG" alt='imageinpublic' style={{width:100,height:30}} />
           <video width={320} height={240} controls>
           <source src={myVideo} type="video/mp4" />
         </video>
